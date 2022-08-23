@@ -6,14 +6,14 @@ Fruit quality detection system using ESP32-CAM module to detect quality using Mo
 
 Technological growth is enormous and using them for the betterment of the human survival is the need of the hour. Our project aims at minimizing time duration required for quality check before selling the product as this is done while transporting the goods from point A to point B and helps in ready-to-shelf pack with efficient mechanism. The major concepts involved are Open CV and conveyor belt control mechanisms. The process happens in the vehicle which transports the goods from one end to another. To summarize, during the travel time the agricultural produce is placed on the conveyor belt and the ESPCAM Module uses Open CV techniques to analyse the quality of the product in all possible angles. The best products are sent directly to the storage box and packing is completed in this step. On reaching the store the best quality product is handed over with cartons. The bad quality produce once detected are discarded immediately into the disposal bin and this can be removed at the final stage. The principle issues highlighted in our project are handing over the best quality goods to the customer, quality check with minimum time duration, wise utilization of travel time, cost-cut technique with minimum machines like conveyor belt, an affordable cost for any salesman, avoiding the manual handling of the goods on reaching the store.
 
-DESIGN APPROACH
+**DESIGN APPROACH
 
 
 ![image](https://user-images.githubusercontent.com/111851675/186127483-90531523-a78a-488c-9959-6f56bfcb7c05.png)
 
-Figure: Block Diagram of system
 
-Model Training:
+
+**Model Training:
 
 
 • Data acquisition of images of good and bad quality images of fruits like apple, banana, orange and guava and labelling of data. 
@@ -24,7 +24,7 @@ Model Training:
 • Live testing of model using available data.
 • Deployment of impulse to Arduino suitable format.
 
-Data Collection and Classification:
+**Data Collection and Classification:
 
 
 • Live data collection using Esp32-cam module.
@@ -33,7 +33,7 @@ Data Collection and Classification:
 • Check the classification with maximum score and store the fruit name and quality.
 • Pass the corresponding string to the Arduino controlling the conveyor belt to sort the fruits accordingly.
 
-Sorting of Products:
+**Sorting of Products:
 
 
 • Receive information from Esp32-cam regarding the quality and type of fruit. 
